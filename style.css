@@ -1,0 +1,99 @@
+* {margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+    background: transparent;
+  
+    font-family: inherit;
+    text-decoration: none; 
+  }
+
+  ol, ul, li {
+    display: block;
+    list-style: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  a img {
+    border: none;
+  }
+  
+  button, a {
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button, input, textarea, select {
+    appearance: none !important;
+    -webkit-appearance: none !important; 
+    border-radius: 0;
+  }
+
+  .level {
+    /* margin: auto; */
+    padding: 5vh;
+  }
+
+  div.level1 {
+      /* position: relative; */
+      width: 90vh;
+      height: 90vh;
+      margin: auto;
+      background-color: #800f2f;
+  }
+
+  div.level2 {
+    width: 80vh;
+    height: 80vh;
+    background-color: #a4133c;
+}
+
+div.level3 {
+    width: 70vh;
+    height: 70vh;
+    background-color: #c9184a;
+}
+
+div.level4 {
+    width: 60vh;
+    height: 60vh;
+    background-color: #ff4d6d;
+}
+
+div.level5 {
+    width: 50vh;
+    height: 50vh;
+    background-color: #ff758f;
+}
+
+div.level6 {
+    width: 40vh;
+    height: 40vh;
+    background-color: #ff8fa3;
+}
+
+div.level7 {
+    width: 30vh;
+    height: 30vh;
+    background-color: #ffb3c1;
+}
+
+div.level8 {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    width: 20vh;
+    height: 20vh;
+    background-color: #ffccd5;
+}
+
